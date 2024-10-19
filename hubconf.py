@@ -6,7 +6,7 @@ from pathlib import Path
 from safetensors import safe_open
 
 import torch
-from inference import Mars5TTS, InferenceConfig
+from mars5.inference import Mars5TTS, InferenceConfig
 
 ar_url = "https://github.com/Camb-ai/MARS5-TTS/releases/download/v0.4/mars5_en_checkpoints_ar-3000000.pt"
 nar_url = "https://github.com/Camb-ai/MARS5-TTS/releases/download/v0.3/mars5_en_checkpoints_nar-1980000.pt"
